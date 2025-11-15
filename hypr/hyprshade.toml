@@ -1,0 +1,4 @@
+[[shades]]
+#name = "DISPLAY1_222336"
+name = "vibrance"
+default = true  # will be activated when no other shader is scheduled
