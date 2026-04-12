@@ -4,7 +4,7 @@
   border: none;
   border-radius: 0px;
   /* font-family: "JetBrains Mono", FontAwesome6Free, SymbolsNerdFont; */
-  font-family: "JetBrainsMono NF";
+  font-family: "Font Awesome 7 Free", "JetBrainsMono NF";
   /* font-weight: 600; */
   font-size: 13px;
   min-height: 12px;
@@ -140,7 +140,7 @@ tooltip {
 
 #tray {
   border-radius: 7px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 #workspaces {

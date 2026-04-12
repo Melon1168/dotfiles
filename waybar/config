@@ -8,7 +8,7 @@
     "height": 30,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpris"],
-    "modules-right": ["clock", "cpu", "memory", "backlight", "battery", "pulseaudio","pulseaudio#microphone", "tray"],
+    "modules-right": ["clock" , "backlight", "battery", "pulseaudio","pulseaudio#microphone", "tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -21,7 +21,8 @@
 			"1": "",
 			"2": "",
 			"3": "",
-			"4": "",
+		//	"4": "",
+			"4": "",
 			"5": "",
 			"6": "",
 			"7": "",
@@ -139,6 +140,8 @@
       "max-len": 60,
       "format": "{player_icon} {artist} - {title}",
       "format-paused": "{player_icon} {artist} - {title}",
+	  "on-scroll-up": "mpc volume -q +2",
+	  "on-scroll-down": "mpc volume -q -2",
       "player-icons": {
         "default": "▶",
         "mpv": "🎵",
