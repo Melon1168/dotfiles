@@ -1,0 +1,1 @@
+/home/melon/.cache/wal/colors-hypr-fix.lua

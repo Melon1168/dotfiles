@@ -24,6 +24,7 @@ if status is-interactive
     alias ssharm='ssh ubuntu@130.162.199.224'
     alias hatmk="make BOARD=hat; openocd -f ../../mmculib/../mat91lib/sam4s/scripts/sam4s_stlink.cfg -c 'adapter speed 100' -c 'program build/app.elf verify reset exit'"
     alias carmk="make BOARD=racer; openocd -f ../../mmculib/../mat91lib/sam4s/scripts/sam4s_stlink.cfg -c 'adapter speed 100' -c 'program build/app.elf verify reset exit'"
+    alias fmmk="cd ~/26S2/ENCE464/Team17/target/build/ && make program"
 	cat ~/.cache/wal/sequences
 	meowfetch
 end
